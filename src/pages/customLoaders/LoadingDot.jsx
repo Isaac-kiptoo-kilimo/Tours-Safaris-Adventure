@@ -11,7 +11,7 @@ const LoadingDot = () => {
         alt="African GE"
         className="w-25 h-25 rounded-full p-2"
       />
-
+{/* looping through the dots */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         {Array.from({ length: numberOfDots }).map((_, index) => (
           <div
