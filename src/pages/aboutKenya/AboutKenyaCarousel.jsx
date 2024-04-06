@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import aboutKenyaImg1 from "./assets/about-kenya.png";
 import aboutKenyaImg2 from "./assets/about-kenya-two.png";
-import aboutKenyaImg3 from "./assets/about-kenya-three.jpg";
+import aboutKenyaImg3 from "./assets/about-kenya3.jpg";
 import aboutKenyaImg4 from "./assets/about-kenya4.jpg";
 import aboutKenyaImg5 from "./assets/about-kenya-five.jpg";
 import aboutKenyaImg10 from "./assets/about-kenya10.jpg";
