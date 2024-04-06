@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
-import aboutKenyaImg1 from "../../assets/images/about-kenya.png";
-import aboutKenyaImg2 from "../../assets/images/about-kenya2.png";
-import aboutKenyaImg3 from "../../assets/images/about-kenya3.jpg";
-import aboutKenyaImg4 from "../../assets/images/about-kenya4.jpg";
-import aboutKenyaImg5 from "../../assets/images/about-kenya5.jpg";
-import aboutKenyaImg10 from "../../assets/images/about-kenya10.jpg";
-import Culture from "../../assets/images/culture.jpg";
-import Season from "../../assets/images/season2.jpg";
-import ImageCard from "./ImageCard";
+import aboutKenyaImg1 from "./assets/about-kenya.png";
+import aboutKenyaImg2 from "./assets/about-kenya2.png";
+import aboutKenyaImg3 from "./assets/about-kenya3.jpg";
+import aboutKenyaImg4 from "./assets/about-kenya4.jpg";
+import aboutKenyaImg5 from "./assets/about-kenya5.jpg";
+import aboutKenyaImg10 from "./assets/about-kenya10.jpg";
+import Culture from "./assets/culture.jpg";
+import Season from "./assets/season2.jpg";
 import { useNavigate } from "react-router-dom";
 
 const AboutKenyaCarousel = ({ setBackgroundImage }) => {

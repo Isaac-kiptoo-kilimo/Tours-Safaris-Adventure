@@ -33,7 +33,7 @@ const handleSingleTour = (tourId) => {
               location={"Nairobi, Kenya"}
               type="tour"
               image={tour.imageCover}
-              price={tour.price?.toLocaleString("en-US")}
+              // price={tour.price?.toLocaleString("en-US")}
               id={index}
               ratings={tour.ratingsAverage}
               onClick={() => handleSingleTour(index)}

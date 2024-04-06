@@ -24,7 +24,8 @@ const HomeHeroCarousel = () => {
           alt={`Kenya ${index + 1}`}
           className={`block w-full h-full absolute top-0 left-0 transition-opacity duration-1000 ${
             activeIndex === index ? "opacity-100" : "opacity-0"
-          }`} onLoad={lazy}
+          }`}
+          onLoad={lazy}
         />
       ))}
       <div className="absolute inset-0 bg-black opacity-30"></div>

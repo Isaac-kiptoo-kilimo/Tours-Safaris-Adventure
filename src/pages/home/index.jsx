@@ -46,9 +46,7 @@ const Home = () => {
         <PauseOnHoverTours />
       </div>
 
-      {/* <Experience/> */}
-
-      {/* experiences by category */}
+      {/* popular destinations */}
       <div className="bg-gray-50 py-2 ">
         <div className="container py-2 px-6 md:px-0 md:max-w-lg mx-auto mt-10 lg:mt-20">
           <h1 className="text-3xl text-center font-bold tracking-tight text-gray-900 md:text-5xl">

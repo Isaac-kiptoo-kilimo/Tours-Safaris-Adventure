@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Layout from "../../../global";
 import { Card } from "flowbite-react";
-import Spinner from "../../../global/components/Spinner";
 import CustomLoader from "../../customLoaders/index";
 import { FaStar } from "react-icons/fa";
-import { MdOutlineCalendarMonth } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import DestinationsData from '../../../data/popularDestination.json';
 
@@ -16,7 +14,6 @@ const Destinations = () => {
   const [destination, setDestination] = useState(null);
   
   useEffect(() => {
-    // Simulate loading delay
     const timeout = setTimeout(() => {
       const selectedDestination = DestinationsData.find(dest => dest.name === name);
       setDestination(selectedDestination);
@@ -63,7 +60,7 @@ const Destinations = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
                   <img
-                    className="w-full h-auto object-cover"
+                    className="w-full object-cover h-72 lg:h-[60vh]"
                     src={area.image}
                     alt="destination image"
                   />

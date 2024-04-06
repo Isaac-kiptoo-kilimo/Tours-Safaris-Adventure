@@ -5,7 +5,7 @@ const ExperienceCategory = ({ name, img,onClick }) => {
     <div
       
       className="relative block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${img})`}} onClick={onClick}
+      style={{ backgroundImage: `url(${img})`}} onClick={onClick} 
     >
       <div className="absolute inset-0 bg-black/25"></div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import AdventureImage from "../../../assets/images/adventure.jpg";
+import AdventureImage from "../assets/adventure/adventure.jpg";
 import safariImage from "../../../assets/images/safaris.jpg";
 import { useNavigate } from "react-router-dom";
 import LazyLoad from "react-lazyload";

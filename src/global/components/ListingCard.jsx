@@ -33,9 +33,9 @@ const ListingCard = ({
             <Rating.Star color="#fff" />
             <p className="text-sm font-bold text-white">{ratings}</p>
           </Rating>
-          <button className="rounded-lg bg-white/70 py-2 px-3.5 font-bold text-sm capitalize text-black mt-5 shadow shadow-black/60">
+          {/* <button className="rounded-lg bg-white/70 py-2 px-3.5 font-bold text-sm capitalize text-black mt-5 shadow shadow-black/60">
             Ksh {price}
-          </button>
+          </button> */}
         </div>
       </div>
     </Link>

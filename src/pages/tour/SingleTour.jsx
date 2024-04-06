@@ -61,7 +61,7 @@ function SingleTour() {
             <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white lg:text-4xl">
               {tour.name}
             </h2>
-            <div className="text-2xl flex flex-col gap-2">
+            <div className="text-2xl lg:mt-4 flex lg:flex-row flex-col gap-2">
               <span className="flex items-center gap-2">
                 <FaStar className="text-yellow-500" />
                 {tour.ratingsAverage}
@@ -102,9 +102,9 @@ function SingleTour() {
               <div>
                 <Card className="p-6">
                   <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                    KSH{" "}
+                    Duration:{" "}
                     <span className="text-yellow-500">
-                      {tour.price?.toLocaleString("en-US")}
+                    {numberOfDays} day(s)
                     </span>
                   </h2>
                   <p className="text-gray-700 dark:text-gray-400">
