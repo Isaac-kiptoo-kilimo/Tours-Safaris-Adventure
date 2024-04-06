@@ -1,0 +1,64 @@
+{
+  "name": "agev3",
+  "private": true,
+  "version": "1.2.0",
+  "description": "African grand expeditions",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "GENERATE_SOURCEMAP=false vite build",
+    "local": "NODE_ENV=production vite",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "tours",
+    "kenya"
+  ],
+  "author": "harun mohamed",
+  "contributors": [
+    "kimenyi serge"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@react-pdf/image": "^2.2.1",
+    "@react-pdf/renderer": "^3.1.12",
+    "@reduxjs/toolkit": "^2.2.1",
+    "autoprefixer": "^10.4.13",
+    "axios": "^1.6.8",
+    "embla-carousel-autoplay": "^8.0.0",
+    "embla-carousel-react": "^8.0.0",
+    "file-saver": "^2.0.5",
+    "flowbite": "^1.6.4",
+    "flowbite-react": "^0.8.0",
+    "html2canvas": "^1.4.1",
+    "mongodb": "^5.6.0",
+    "pdf-lib": "^1.17.1",
+    "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "react-calendar": "^4.3.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.0.1",
+    "react-lazyload": "^3.2.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-qrcode-logo": "^2.9.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.8.0",
+    "react-select": "^5.7.3",
+    "react-slick": "^0.30.2",
+    "react-type-animation": "^3.0.1",
+    "slick-carousel": "^1.8.1",
+    "sonner": "^1.4.41",
+    "tailwindcss": "^3.2.4",
+    "tw-elements-react": "1.0.0-alpha2"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}

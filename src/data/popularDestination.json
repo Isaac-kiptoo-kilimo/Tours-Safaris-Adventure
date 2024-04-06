@@ -1,0 +1,180 @@
+ [
+      {
+        "name": "South Coast",
+        "summary_image": "https://images.pexels.com/photos/15162462/pexels-photo-15162462/free-photo-of-aerial-view-of-a-coastal-city-in-hawaii.jpeg",
+        "popular_attractions": [
+          {
+            "name": "Diani Beach",
+            "description": "Diani Beach is known for its white sandy beaches, clear waters, and coral reefs. It's a popular spot for swimming, snorkeling, and diving.",
+            "location": "Diani Beach Rd, Diani Beach, Kenya",
+            "ratingsAverage": 4.0,
+            "image": "https://images.pexels.com/photos/2674064/pexels-photo-2674064.jpeg"
+          },
+          {
+            "name": "Shimba Hills National Reserve",
+            "description": "Shimba Hills National Reserve offers stunning landscapes, waterfalls, and diverse wildlife including elephants, giraffes, and rare species of birds.",
+            "location": "Kwale County, Kenya",
+            "ratingsAverage": 4.5,
+            "image": "https://images.pexels.com/photos/6057219/pexels-photo-6057219.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "Nairobi",
+        "summary_image": "https://images.pexels.com/photos/5473053/pexels-photo-5473053.jpeg",
+        "popular_attractions": [
+          {
+            "name": "Nairobi National Park",
+            "description": "Nairobi National Park is a unique wildlife reserve located just outside the city center. Visitors can spot lions, rhinos, giraffes, and other animals against the backdrop of the city skyline.",
+            "location": "Langata Rd, Nairobi, Kenya",
+            "ratingsAverage": 4.5,
+            "image": "https://cdn.pixabay.com/photo/2019/08/22/06/59/rhino-4422728_1280.jpg"
+          },
+          {
+            "name": "David Sheldrick Wildlife Trust",
+            "description": "The David Sheldrick Wildlife Trust is a haven for orphaned elephants, where visitors can learn about elephant conservation and even adopt an elephant.",
+            "location": "Mbagathi Rd, Nairobi, Kenya",
+            "ratingsAverage": 4.0,
+            "image": "https://cdn.pixabay.com/photo/2020/01/07/17/20/baby-elephants-4748163_1280.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Western Kenya",
+        "summary_image": "https://images.pexels.com/photos/12592433/pexels-photo-12592433.jpeg",
+        "popular_attractions": [
+            {
+                "name": "Kakamega Forest",
+                "description": "Kakamega Forest is a tropical rainforest offering opportunities for birdwatching, hiking, and primate viewing. It's home to unique flora and fauna.",
+                "location": "Kakamega County, Kenya",
+                "ratingsAverage": 5.0,
+                "image": "https://cdn.pixabay.com/photo/2016/11/29/07/12/forest-1868028_1280.jpg"
+              },
+              {
+                "name": "Maasai Culture",
+                "description": "Western Kenya is also home to the Maasai people, known for their vibrant culture and distinctive attire. The Maasai Mara National Reserve provides an opportunity to experience their traditional lifestyle firsthand.",
+                "location": "Narok County, Kenya",
+                "ratingsAverage": 4.2,
+                "image": "https://images.pexels.com/photos/12592433/pexels-photo-12592433.jpeg"
+              },
+              {
+                "name": "Maasai Mara National Reserve",
+                "description": "Maasai Mara National Reserve is famous for its exceptional population of lions, leopards, cheetahs, and the annual migration of wildebeest, zebra, and gazelle from the Serengeti.",
+                "location": "Narok County, Kenya",
+                "ratingsAverage": 4.0,
+                "image": "https://cdn.pixabay.com/photo/2022/08/28/09/36/blue-wildebeests-7416196_1280.jpg"
+              }
+        ]
+      },
+      
+      {
+        "name": "South Rift Valley",
+        "summary_image": "https://cdn.pixabay.com/photo/2017/08/27/07/47/giraffes-2685352_1280.jpg",
+        "popular_attractions": [
+          {
+            "name": "Hell's Gate National Park",
+            "description": "Hell's Gate National Park offers dramatic scenery including towering cliffs, gorges, and geothermal hot springs. Visitors can hike, rock climb, and even bike through the park.",
+            "location": "Naivasha, Kenya",
+            "ratingsAverage": 4.0,
+            "image": "https://cdn.pixabay.com/photo/2022/06/19/06/59/zebras-7271164_1280.jpg"
+          },
+          {
+            "name": "Lake Bogoria",
+            "description": "Lake Bogoria is known for its geysers and hot springs along the lake's shores, as well as its large population of flamingos.",
+            "location": "Baringo County, Kenya",
+            "ratingsAverage": 4.5,
+            "image": "https://cdn.pixabay.com/photo/2015/09/04/09/05/iceland-921769_1280.jpg"
+          },
+          
+          {
+            "name": "Lake Nakuru National Park",
+            "description": "Lake Nakuru National Park is renowned for its vast numbers of pink flamingos, as well as rhinos, giraffes, lions, and other wildlife.",
+            "location": "Nakuru County, Kenya",
+            "ratingsAverage": 4.5,
+            "image": "https://cdn.pixabay.com/photo/2017/08/27/07/47/giraffes-2685352_1280.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Northern Kenya",
+        "summary_image": "https://lp-cms-production.imgix.net/2022-02/iStock-117496385%20RFC.jpg",
+        "popular_attractions": [
+          {
+            "name": "Samburu National Reserve",
+            "description": "Samburu National Reserve is home to unique wildlife such as the Grevy's zebra, reticulated giraffe, and Somali ostrich. Visitors can also experience the rich culture of the Samburu people.",
+            "location": "Samburu County, Kenya",
+            "ratingsAverage": 4.5,
+            "image": "https://images.pexels.com/photos/6056159/pexels-photo-6056159.jpeg"
+          },
+          {
+            "name": "Mount Kenya",
+            "description": "Mount Kenya is the second-highest peak in Africa and offers breathtaking scenery, diverse ecosystems, and opportunities for trekking, rock climbing, and wildlife viewing.",
+            "location": "Nyeri County, Kenya",
+            "ratingsAverage": 4.0,
+            "image": "https://cdn.pixabay.com/photo/2022/08/10/17/33/mount-kenya-7377719_1280.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Laikipia Plateau",
+        "summary_image": "https://cdn.pixabay.com/photo/2018/02/06/13/15/nature-3134707_1280.jpg",
+        "popular_attractions": [
+          {
+            "name": "Ol Pejeta Conservancy",
+            "description": "Ol Pejeta Conservancy is a leading wildlife conservancy in East Africa, home to the 'Big Five' and the last two remaining northern white rhinos in the world.",
+            "location": "Laikipia County, Kenya",
+            "ratingsAverage": 4.2,
+            "image": "https://cdn.pixabay.com/photo/2017/08/24/09/07/rhino-2675891_1280.jpg"
+          },
+          {
+            "name": "Aberdare National Park",
+            "description": "Aberdare National Park offers diverse landscapes including moorland, rainforest, and bamboo forests. Visitors can spot elephants, buffaloes, leopards, and various bird species.",
+            "location": "Aberdare Range, Kenya",
+            "ratingsAverage": 4.0,
+            "image": "https://images.pexels.com/photos/17542820/pexels-photo-17542820/free-photo-of-bridge-above-a-waterfall-in-a-forest.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "Lamu Island",
+        "summary_image": "https://images.pexels.com/photos/17823958/pexels-photo-17823958/free-photo-of-view-of-boats-on-a-beach-and-buildings-on-an-island.jpeg",
+        "popular_attractions": [
+          {
+            "name": "Lamu Old Town",
+            "description": "Lamu Old Town is a UNESCO World Heritage Site known for its well-preserved Swahili architecture, narrow streets, and rich cultural heritage.",
+            "location": "Lamu Island, Kenya",
+            "ratingsAverage": 4.8,
+            "image": "https://images.pexels.com/photos/17594841/pexels-photo-17594841/free-photo-of-view-of-the-grand-harbour-of-malta.jpeg"
+          },
+          {
+            "name": "Shela Beach",
+            "description": "Shela Beach is a pristine stretch of coastline ideal for relaxation, water sports, and dhow sailing. Visitors can also explore nearby mangrove forests and coral reefs.",
+            "location": "Lamu Island, Kenya",          
+            "ratingsAverage": 4.2,
+            "image": "https://images.pexels.com/photos/17697740/pexels-photo-17697740/free-photo-of-people-on-beach-in-polignano-a-mare-in-italy.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "Lamu Archipelago",
+        "summary_image": "https://lp-cms-production.imgix.net/2019-06/1581485b6126df5c03de9f3e39cdf56b195c35d68edd2385c1942d65375e8449.jpg",
+        "popular_attractions": [
+          {
+            "name": "Kiwayu Island",
+            "description": "Kiwayu Island is a secluded paradise known for its pristine beaches, turquoise waters, and luxurious resorts. Visitors can enjoy snorkeling, fishing, and sunset cruises.",
+            "location": "Lamu Archipelago, Kenya",
+            "ratingsAverage": 4.0,
+            "image": "https://images.pexels.com/photos/17829263/pexels-photo-17829263/free-photo-of-view-of-turquoise-water-and-a-rough-cliff-surface.jpeg"
+          },
+          {
+            "name": "Manda Island",
+            "description": "Manda Island offers tranquility and natural beauty, with opportunities for water sports, birdwatching, and exploring ancient ruins such as Takwa.",
+            "location": "Lamu Archipelago, Kenya",
+            "ratingsAverage": 5.0,
+            "image": "https://images.pexels.com/photos/17721927/pexels-photo-17721927/free-photo-of-people-swimming-in-the-sea-near-the-beach-rondinara-on-corsica-island-france.jpeg"
+          }
+        ]
+      }
+    ]
+
+  

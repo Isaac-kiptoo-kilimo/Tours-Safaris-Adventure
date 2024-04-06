@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Argent-CF font - used on tajriba logo and h1s */
+/* @font-face {
+  font-family: African Grand ExpeditionsHeadingsFont;
+  src:url("../fonts/Argent-CF/Fontspring-DEMO-argentcf-bold.otf");
+} */
+
+/* Airbnb-Cereal font - for secondary text */
+@font-face {
+  font-family: SecondaryTextFont;
+  src: url("../fonts/Airbnb-Cereal/AirbnbCereal_W_Bk.otf");
+}
+
+:root {
+  --primary: rgb(209 213 219);
+  --secondary: rgb(55 65 81);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
+
+@font-face {
+  font-family: HeadingsFont;
+  src: url("../fonts/Airbnb-Cereal/AirbnbCereal_W_Md.otf");
+}
+
+
+body {
+  padding: 0;
+  font-family: SecondaryTextFont, sans-serif;
+  width: 100%;
+  background-color: white;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.navigation-items {
+  position: relative;
+}
+
+.navigation-items::after {
+  content: "";
+  position: absolute;
+  bottom: 10;
+  left: 0;
+  background-color: transparent; 
+  width: 0; 
+  height: 3px;
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navigation-items:hover::after {
+  background-color: #d69e2e; 
+  width: 100%; 
+}
+
+h1 {
+  font-family: HeadingsFont;
+}
+
+textarea {
+  height: 140px;
+}
+
+button {
+  @apply bg-gray-300;
+}
+
+button.primary {
+  background-color: "#F5385D";
+  @apply bg-primary p-2 w-full text-white rounded-2xl;
+}
+
+.focus\:\!ring-2:focus {
+  @apply focus:ring-0 focus:ring-transparent;
+}
+
+.hero-navbar {
+  @apply relative p-6 lg:px-8 bg-transparent border-0 border-none rounded-none border-transparent;
+}
+
+.navbar-links {
+  @apply text-sm text-black font-semibold leading-6 relative;
+}
+
+.md\:hover\:text-blue-700:hover {
+  @apply !text-black/60;
+}
+
+.navbar-collapse-hero ul.mt-4.flex.flex-col.md\:mt-0.md\:flex-row.md\:space-x-8.md\:text-sm.md\:font-medium {
+  @apply bg-white md:bg-transparent z-10 absolute md:relative w-1/2 sm:w-1/4 md:w-max top-0 right-0;
+}
+
+.toggle-button-hero {
+  @apply text-black bg-transparent border-2 rounded border-black/30 focus:!ring-0 focus:!ring-transparent hover:!bg-black/20;
+}
+
+.mobile-modal-toast>div:first-of-type {
+  @apply h-fit;
+}
+
+.image-full > div:first-child {
+  @apply !rounded-none;
+}
+
+.modal-header h3 {
+  @apply text-neutral-800 font-semibold;
+}
+
+
+.translate-on-load {
+  animation: translateImage 1s ease forwards;
+}
+
+@keyframes translateImage {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(10px); 
+  }
+}
+.img {
+  transition: transform 0.5s ease;
+}
+
+.hosting-right {
+  transition: transform 0.5s ease;
+}
+
+.hosting:hover .img {
+  transform: translateX(6px); 
+}
+
+/* .hosting:hover .hosting-right {
+  transform: translateX(-12x); 
+} */
+.safari:hover .img {
+  transform: translateX(-8px); 
+}
+
+
+.slide-from-left {
+  animation: slideFromLeft 1s ease-in-out forwards;
+  opacity: 0; 
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.slide-from-left2 {
+  animation: slideFromLeft2 1s ease-in-out forwards;
+}
+
+@keyframes slideFromLeft2 {
+from {
+  transform: translateX(3%);
+ }
+ to {
+   transform: translateX(0);
+ }
+}
+
+
+.border-bottom-hover {
+  position: relative; 
+}
+
+.border-bottom-hover::after {
+  content: ''; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2rem; 
+  height: 2px; 
+  background-color: transparent; 
+  transition: width 0.3s ease; 
+}
+
+.border-bottom-hover:hover::after {
+  width: 100%; 
+  background-color: #f59e0b; 
+}
